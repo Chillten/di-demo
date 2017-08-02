@@ -8,6 +8,8 @@ import org.springframework.stereotype.Controller;
 public class PropertyInjectedController {
     @Autowired
     public GreetingServiceImpl greetingService;
+    // Похватывается из-за того что имя класса совпадает с уже существующем бином
+    //public GreetingService greetingServiceImpl; //Реализация через интерфейс, автосвзязь происходит за счет имени переменной
 
     public String sayHello(){
         return greetingService.sayGreeting();

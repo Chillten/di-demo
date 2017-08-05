@@ -1,0 +1,20 @@
+db:
+  username: John
+  password: 1234
+  url: hello.com
+
+---
+spring:
+  profiles: de
+db:
+  username: Dirk
+  password: 1234
+  url: hello.de
+
+---
+  spring:
+    profiles: es
+  db:
+    username: Rodrigo
+    password: 1234
+    url: hello.es

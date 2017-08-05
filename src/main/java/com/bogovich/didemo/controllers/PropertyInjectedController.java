@@ -1,4 +1,4 @@
-package com.bogovich.didemo.Controllers;
+package com.bogovich.didemo.controllers;
 
 import com.bogovich.didemo.services.GreetingService;
 import com.bogovich.didemo.services.GreetingServiceImpl;
